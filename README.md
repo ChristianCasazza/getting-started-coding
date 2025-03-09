@@ -63,7 +63,7 @@ If you’re on Windows, it is **highly** recommend to conduct all coding in WSL,
 
 ## 3. Install uv for python code
 
-**uv** is an extremely fast Python package manager that simplifies creating and managing Python projects. We’ll install it first to ensure our Python environment is ready to go. It working with python both faster and simpler.
+**uv** is an extremely fast Python package manager that simplifies creating and managing Python projects. We’ll install it first to ensure our Python environment is ready to go. uv makes working with python both faster and simpler.
 
 ### Install uv
 
@@ -94,9 +94,7 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 ## 4. Test Your uv Installation
 
 ### Open the Terminal in VSCode
-- In VSCode, look at the top menu and select **Terminal > New Terminal**, or press:
-  - **Windows/Linux:** `Ctrl` + `` ` `` (Control + backtick)
-  - **macOS:** `Command` + `` ` ``
+- In VSCode, look at the top menu and select **Terminal > New Terminal**, then:
 
 ### Run the command:
 ```sh
@@ -128,12 +126,12 @@ If uv displays its usage information without an error, congratulations! You’re
 
 ## 5. Install Bun for JS and TS code
 
-[Bun](https://bun.sh/docs) is an extremely fast runtime and package manager that simplifies creating and managing JavaScript (JS) or TypeScript (TS) projects. We’ll install it first to ensure our Python environment is ready to go. It makes working with JS and TS code both faster and simpler.
+[Bun](https://bun.sh/docs) is an extremely fast runtime and package manager that simplifies creating and managing JavaScript (JS) or TypeScript (TS) projects. We’ll install it first to ensure our Js/TS environment is ready to go. Bun makes working with JS and TS code both faster and simpler.
 
 
 ### Install Bun
 
-In VSCode, at the top of the screen, you will see an option that says **Terminal**. Then, you should click the button, and then select **New Terminal**. Then, copy and paste the following commands to install uv. You can double check they are the correct scripts by going to the official bun site.
+In VSCode, at the top of the screen, you will see an option that says **Terminal**. Then, you should click the button, and then select **New Terminal**. Then, copy and paste the following commands to install bun. You can double check they are the correct scripts by going to the official bun site.
 
 [Install Bun](https://bun.sh/docs/installation)
 
@@ -192,18 +190,6 @@ Commands:
 
 ---
 
-## 6. Create a Free GitHub Account
-
-GitHub is a platform that hosts your code online and helps with version control and collaboration.
-
-### Sign up
-- Go to [GitHub](https://github.com) and create a free account if you don’t already have one.
-
-### Explore GitHub
-- Once you have an account, you can create repositories, explore others’ code, and collaborate on projects.
-
----
-
 ## 7. Install Git on Your Computer
 
 Git is the version control system that integrates with GitHub to sync your local code with your repositories online.
@@ -225,7 +211,19 @@ If you are using a mac, it may automatically ask to install developer tools if t
 
 ---
 
-## 8. Sign In to GitHub from the Command Line
+## 8. Create a Free GitHub Account
+
+GitHub is a platform that hosts your code online and helps with version control and collaboration.
+
+### Sign up
+- Go to [GitHub](https://github.com) and create a free account if you don’t already have one.
+
+### Explore GitHub
+- Once you have an account, you can create repositories, explore others’ code, and collaborate on projects.
+
+---
+
+## 9. Sign In to GitHub from the Command Line
 
 ### Configure Git locally
 Open your VSCode terminal and set up your user name and email:
@@ -256,7 +254,7 @@ Now you can clone and push without entering a username/password each time.
 ## Summary
 
 ### Congratulations! You’ve installed and set up:
-- **VSCode** (your free code interface)
+- **VSCode** (Simple and free code interface)
 - **WSL** (To make life easier for Windows users)
 - **uv** (To make life easier with Python projects)
 - **Bun** (To make life easier with JavaScript and TypeScript projects)
