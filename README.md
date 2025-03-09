@@ -2,15 +2,15 @@
 
 Welcome! This guide will help you set up your computer with a baseline for running most common applications written in Python, JavaScript, and TypeScript—all within Visual Studio Code (VSCode). By following these steps, you’ll install VSCode, configure a development environment (including WSL for Windows users), install uv (a fast Python package manager), install Bun (a fast JavaScript/Typescript package and runtime manager), and Git, and connect to your GitHub account.
 
-- **VSCode** 
-- **WSL** 
-- **uv** 
-- **Bun** 
-- **Git and GitHub** 
+- **VSCode** (Free and simple code interface)
+- **WSL** (To make life easier for Windows users)
+- **uv** (To make life easier with Python projects)
+- **Bun** (To make life easier with JavaScript and TypeScript projects)
+- **Git and GitHub** (for built in version control and collaborating on code with others)
 
 Everything in this guide is a one time setup that then forever sets up your laptop to run software applications for free locally.
 
-## 1. Install Visual Studio Code
+## 1. Install VSCode(Visual Studio Code)
 
 ### Download VSCode
 - Visit [VSCode Download](https://code.visualstudio.com/download).
